@@ -4,6 +4,7 @@ count:  object:
 3x      par 56 
 8x-10x  spots
 x       media for a beamer
+4x      speakers
 there may be more things in the future
 
 for the par 56:
@@ -24,10 +25,29 @@ its quite simple
 
 The media server is something I will have to think about so that will come later
 
+server with monitor:
+i am going to make a gui in visual studio code (the language will probaly be python)
+the control will be close to my bed
+main layout sketch
+bottom middle: control for music/video
+bottom right: toggle for gui dark/out mode (a little button wil always be visible to i can turn it on)
+upper left: control for pars: r, g, b, dimmer, possible chasers? (colours dimmers?) (MIDI)
+upper left right: control spots on off toggle switch (MIDI)
+upper right: time and date display
+
+server without monitor:
+going to run qlc+ and next to it is going to sit the esp8266 custom open case
+
+
 
 the things i am going to use for control:
 1x server (raspberry pi and/or chromebook)
 1x ESP8266
 1x Arduino
 1x USB-DMX converter
+
+NEW IDEAS:
+use the chromebook as a monitor for the server through Spacedesk
+benefits: touchscreen for the server control
+down side: need power for both chromebook and server
 
