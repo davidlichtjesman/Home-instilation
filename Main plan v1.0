@@ -1,0 +1,33 @@
+I'm gonna have a home server that for now will be a raspberry pi 2B 1.2 and i will later "upgrade" to a dell 3100 chromebook with ubuntu as OS
+The server will control:
+count:  object:   
+3x      par 56 
+8x-10x  spots
+x       media for a beamer
+there may be more things in the future
+
+for the par 56:
+a wall dimmer will be used as a potmeter and is going to be conected to a arduino
+the arduino will use the potmeter and send a midi signal to the server
+the server will via qlc+ convert the midi signals to DMX.512 signals
+
+for the spots:
+the spots will be hombli smart spot RGB and CCT
+for the time being it wil just be on and off
+
+a wall switch is going to be the input for a ESP8266
+te ESP8266 will through a webhook connect with IFTTT and activate 1 off 2 actions:
+action 1:
+if switch is on the rgb bulbs will be turned on
+if switch is off the rgb bulbs will be turned off
+its quite simple
+
+The media server is something I will have to think about so that will come later
+
+
+the things i am going to use for control:
+1x server (raspberry pi and/or chromebook)
+1x ESP8266
+1x Arduino
+1x USB-DMX converter
+
